@@ -11,7 +11,9 @@
                 <div class="inputform">
                     <label>Empreendimento:</label><input type="text" required/>
                 </div>
-                <label>Profissional responsável:</label><input type="text" required/></br>
+                <div class="inputform">
+                <label>Profissional responsável:</label><input type="text" required/>
+                </div>
                 <label>E-mail:</label><input type="e-mail" required/></br>
                 <label>Tipo de serviço:</label><input type="text" required/></br>
                 <label>Mensagem:</label><textarea></textarea></br>
