@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    color: #b699b9; 
+    text-align: center;
+    background-color: #1e506d;
+    font-size: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+	font-family: Lato;
+    font-weight: 700;
+	background-image: url(https://i.pinimg.com/originals/43/89/53/438953161a7ce54c11820ea345a1f640.png);
+	background-repeat: repeat;
+	background-position: center ;
+	background-size: 500px;
+}
+
+div.container {
+    max-width: 866px;
+    margin: 0px auto;
+}
+header nav ul li {display: inline;
+   				  }
+header nav ul li a {color:#583e6ac4;
+					text-decoration: none;
+					padding-inline: 32px;
+					font-size: 13px;
+					border: 3px dotted #1e506d;
+					background-color: #c1c1c1;
+					font-family: Lato;
+					font-weight: 400;}
+header nav ul li a:hover {color:white;}
+label {display: inline-block;
+		width: 90px;
+		text-align: right;
+		vertical-align: top;}
+
+div.inputform {padding: 3px 0px;
+}
+footer {padding-top: 10px;}
+footer nav ul li {display: block;
+				  text-align:inherit;
+				  background-color: #705d72;
+				  padding: 4px;
+				  margin-top: 0px;
+				  }
+footer nav ul li a {
+					margin-left: 150px;}
+h2 {color: rgb(167, 67, 137);
+	font-size: 30px;
+	padding-top: 10px;
+	font-family: Lato;
+    font-weight: 400;}
+
+h3 {color: #1e506d;
+		font-size: 25px;
+		padding-top: 10px;
+		font-family: Lato;
+		font-weight: 400;}
+
+form label {display: inline-block;
+    width: 150px;
+    text-align: right;}
+	
+	
+p {color: grey;
+   margin-bottom: 20px;
+   font-family: Lato;
+   font-weight: 400;}
+img.destaque {width: 300px;
+			  padding-bottom: 20px;}
+div.img-container {text-align: center;}
